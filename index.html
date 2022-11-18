@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-8</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="headerLeft">
+                <p class="headerText">
+                    посылки
+                </p>
+    
+                <p class="headerText">
+                    упаковка
+                </p>
+    
+                <p class="headerText">
+                    подписка
+                </p>
+            </div>
+
+            <div class="headerRight">
+                <p class="headerText">
+                    меню
+                </p>
+            </div>
+
+        </header>
+
+        <div class="main">
+            <form method="post" action="https://formspree.io/f/xkneyebr" class="form">
+                <div class="formCntainer">
+                    <label for="name" class="name">
+                        <span class="labelText">Имя</span>
+                        <input id="name" type="text" name="userName"/>
+                    </label>
+
+                    <label for="city" class="city">
+                        <span class="labelText">Город</span>
+                        <select id="city" name="userCity">
+                            <option value="moscow">Москва</option>
+                            <option value="st-p">Петербург</option>
+                            <option value="nyc">Нью-Йорк</option>
+                            <option value="od">Одесса</option>
+                        </select>
+                    </label>
+
+                    <label for="gift" class="gift">
+                        <span class="labelText">Подарок</span>
+                        <textarea id="gift" name="gift"></textarea>
+                    </label>
+
+                    <label for="email" class="email">
+                        <span class="labelText">Электроная почта</span>
+                        <input id="email" type="email" name="userEmail" placeholder="example@mail.com"/>
+                    </label>
+                </div>
+
+                <div class="formButton">
+                    <button>отправить</button>
+                </div>
+            </form>
+        </div>
+
+        <section>
+            <p class="sectionText">ваша посылка уже в пути!</p>
+        </section>
+
+        <footer>
+            <p class="footerText">секретные посылки для друзей</p>
+            <p class="footerText">© 2022</p>
+        </footer>
+    </div>
+</body>
+</html>

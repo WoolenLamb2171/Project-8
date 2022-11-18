@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8BFC7;
+    padding: 50px;
+}
+
+.headerLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.headerText{
+    font-size: 20px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.main{
+    display: flex;
+    background-image: url(images/background.png);
+    width: 100%;
+    height: 643px;
+    align-items: center;
+    padding: 90px;
+}
+
+label,
+.formCntainer,
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formCntainer{
+    background-color: #F8BFC7;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    height: 362px;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+label{
+    font-size: 20px;
+    font-family: Helvetica;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+button{
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+button:hover{
+    background-color: #00BFE7;
+}
+
+button:active{
+    background-color: #FF5000;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #336FD1;
+    height: 214px;
+}
+
+.sectionText{
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    color: #FEB700;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 90px;
+    background-color: #F8BFC7;
+}
+
+.footerText{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+input,
+select,
+textarea{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: #F8BFC7;
+    color: #336FD1;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
